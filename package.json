@@ -1,9 +1,9 @@
 {
   "name": "grunt-newman",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Grunt plugin for Newman - The collection runner for Postman",
-  "homepage": "https://github.com/prakhar1989/grunt-newman",
-  "repository": "https://github.com/prakhar1989/grunt-newman",
+  "homepage": "https://github.com/sudazzle/grunt-newman",
+  "repository": "https://github.com/sudazzle/grunt-newman",
   "author": {
     "name": "Prakhar Srivastav",
     "email": "prakhar1989@gmail.com",
