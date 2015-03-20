@@ -13,6 +13,10 @@ module.exports = function (grunt) {
 
 		var done = this.async();
 
+		if (options.envJson) {
+			options.envJson = JSON5.parse(fs.readFileSync(options.envJson, 'utf8'));
+		}
+		
 		if (options.collection) {
 			var requestJSON = JSON5.parse(fs.readFileSync(options.collection, 'utf8'));
 
