@@ -1,9 +1,12 @@
 {
   "name": "grunt-newman",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Grunt plugin for Newman - The collection runner for Postman",
   "homepage": "https://github.com/sudazzle/grunt-newman",
-  "repository": "https://github.com/sudazzle/grunt-newman",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sudazzle/grunt-newman"
+  },
   "author": {
     "name": "Prakhar Srivastav",
     "email": "prakhar1989@gmail.com",
@@ -22,10 +25,10 @@
     }
   ],
   "dependencies": {
-	  "newman": "*",
-	  "unirest": "*",
-	  "lodash": "*",
-	  "json5": "*"
+    "newman": "*",
+    "unirest": "*",
+    "lodash": "*",
+    "json5": "*"
   },
   "devDependencies": {
     "grunt-contrib-clean": "~0.5.0",
@@ -37,5 +40,14 @@
   },
   "scripts": {
     "test": "grunt test"
-  }
+  },
+  "readme": "# grunt-newman\n\n> Grunt plugin for [Newman](https://github.com/a85/Newman) - The collection runner for Postman\n\n## Options\n\nDefault example:\n```\nnewman: {\n  default_options: {\n    options: {\n        iterationCount: 2,\n        stopOnError: true,\n        url: \"https://www.getpostman.com/collections/6f4387fee8d33e05fb69\"\n    }\n  }\n}\n```\n\nSpecify the number of collection iterations iterationCount\n```\nnewman: {\n  default_options: {\n    options: {\n        iterationCount: 2\n    }\n  }\n}\n```\n\nSpecify the stop on error setting. See [Newman documentation](https://github.com/a85/Newman) for specific usage of stop on error.\n```\nnewman: {\n  default_options: {\n    options: {\n        stopOnError: true\n    }\n  }\n}\n```\n\nSpecify the url of the collection. Useful for working in teams or groups.\n```\nnewman: {\n  default_options: {\n    options: {\n        url: \"https://www.getpostman.com/collections/6f4387fee8d33e05fb69\"\n    }\n  }\n}\n```\n\nSpecify the disk location of collection.\n```\nnewman: {\n  default_options: {\n    options: {\n        collection: \"../../my_relative_path/collection.json\"\n    }\n  }\n}\n```",
+  "readmeFilename": "README.md",
+  "gitHead": "4942bcdee9a660c29de8657cf038e960b33d3b43",
+  "bugs": {
+    "url": "https://github.com/sudazzle/grunt-newman/issues"
+  },
+  "_id": "grunt-newman@0.0.3",
+  "_shasum": "6c20e03fff2f9fc859161117af186af7e3e9a884",
+  "_from": "grunt-newman@0.0.3"
 }
