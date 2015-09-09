@@ -1,5 +1,7 @@
 # grunt-newman
 
+[![Join the chat at https://gitter.im/sudazzle/grunt-newman](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/sudazzle/grunt-newman?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 > Grunt plugin for [Newman](https://github.com/a85/Newman) - The collection runner for Postman
 
 ## Options
